@@ -1,1 +1,115 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+
+    <div class="header">
+        <h1><a href="#">한유건's blog</a></h1>
+        <br><br><br>
+    </div>
+
+    <div class="nav">
+        <a href="#">Prologue</a>
+        <a href="#">hanyugoen</a>
+        <a href="#">springboot-webservice</a>
+        <a href="#">HelloReactjs</a>
+        <a href="#">Hip-Hop</a>
+        <a href="#">Classic</a>
+    </div>
+
+    <div class="leftselection">
+        <div class="block">
+            <h2>Pr. Welcome!</h2>
+            <hr>
+            <br>
+
+            <p style="text-align: center;">hello world!</p>
+            <br>
+
+            <p> 반갑습니다! 저의 블로그에 오신걸 환영해요. 이곳은 지극히 개인적인 블로그입니다.<del>(저의 이야기밖에 없어요.)</del><br>
+                그만큼 <strong>일상생활, 코딩하기, 음악감상과같은 제 일상생활 컨탠츠들</strong>만 있답니다.</p>
+            <br>
+            <br>
+        </div>
+
+        <div class="block">
+            <h2>제목을 입력하세요</h2>
+            <hr>
+            <br>
+
+            <p style="text-align: center;">부제목을 입력하세요</p>
+            <br>
+
+            <p> 내용을 입력하세요</p>
+            <br>
+            <br>
+        </div>
+
+        <div class="block">
+        <h2>제목을 입력하세요</h2>
+            <hr>
+            <br>
+
+            <p style="text-align: center;">부제목을 입력하세요</p>
+            <br>
+
+            <p> 내용을 입력하세요</p>
+            <br>
+            <br>
+        </div>
+
+        <div class="block">
+        <h2>제목을 입력하세요</h2>
+            <hr>
+            <br>
+
+            <p style="text-align: center;">부제목을 입력하세요</p>
+            <br>
+
+            <p> 내용을 입력하세요</p>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="rightselection">
+        <div class="block">
+            <img src="https://avatars.githubusercontent.com/u/73218463?v=4" width="128", height="128">
+            <p> 약간의 일상생활과 소통을 겸한<br>취미생활 덕질 블로그</p>
+            <p> 관심 분야: 코딩공부(웹프론트엔드), <del>총으로 쏴죽이는 게임</del>(?), 음악 감상</p>
+        </div>
+        <br>
+
+        <div class="block">
+            <ul>
+                <li><a href="https://www.instagram.com/jaehyeon6115/">INSTAGRAM</a></li>
+                <li><a href="https://www.facebook.com/wogusghk/">FACEBOOK</a></li>
+                <li><a href="https://www.twitch.tv/hanyugeon">TWITCH</a></li>
+                <li><a href="https://www.youtube.com/channel/UC49iR8rreEWJ1pyKD2-lBmA?view_as=subscriber">YOUTUBE</a></li>
+                <li><a href="https://discord.gg/fPXtXhA">DISCORD</a></li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <h3>다크 모드 활성화</h3>
+
+            <input id="night_day" type="button" value="night" onclick="
+            if(document.querySelector('#night_day').value === 'night'){
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('.leftselection').style.backgroundColor = 'black';
+            document.querySelector('.rightselection').style.backgroundColor = 'black';
+            document.querySelector('#night_day').value = 'day';
+            } else {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('.leftselection').style.backgroundColor = 'white';
+            document.querySelector('.rightselection').style.backgroundColor = 'white';
+            document.querySelector('#night_day').value = 'night';
+            }
+            ">
+        </div>
+    </div>
+    </body>
+</html>
